@@ -556,3 +556,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *For detailed design specifications, please refer to the original design document: "rupiya.app — Website Design Prototype"*"# rupiya" 
+"# rupiya-website" 
