@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Residue-Free Farming with satellite soil testing, AI monitoring, quality inputs, and expert advisory for safer food and healthier soil.">
+    <meta name="keywords" content="residue-free farming, satellite soil testing, AI monitoring, organic inputs, agronomical advisory">
+    <title>Residue-Free Farming - Rupiya.app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/residue-free.css">
+</head>
+<body>
+    <!-- Navigation (same as homepage) -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-seedling"></i>
+                    <span>rupiya<span class="logo-accent">.app</span></span>
+                </a>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="residue-free-farming.html" class="active">Residue-Free Farming</a></li>
+                    <li><a href="carbon-credits.html">Carbon Credits</a></li>
+                    <li><a href="financial-services.html">Financial Services</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">For You <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="for-farmers.html">For Farmers</a></li>
+                            <li><a href="for-fpos.html">For FPOs</a></li>
+                            <li><a href="for-buyers.html">For Buyers</a></li>
+                            <li><a href="for-investors.html">For Investors</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="language-selector">
+                        <button class="lang-btn" id="langBtn">
+                            <i class="fas fa-globe"></i> EN <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <ul class="lang-menu" id="langMenu">
+                            <li><a href="#" data-lang="en">English</a></li>
+                            <li><a href="#" data-lang="hi">हिंदी</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">Residue-Free Farming</h1>
+                <p class="page-subtitle">Farming without synthetic residues — safer food, healthier soil, higher income</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Satellite Soil Testing -->
+    <section class="soil-testing">
+        <div class="container">
+            <h2 class="section-title text-center">Satellite-Based Soil Testing</h2>
+            <p class="section-subtitle text-center">Advanced technology for precision agriculture</p>
+            
+            <div class="flow-diagram">
+                <div class="flow-step scroll-animate">
+                    <div class="flow-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3 class="flow-title">1. Satellite Imaging</h3>
+                    <p class="flow-desc">High-resolution satellite images capture your farm's spectral data</p>
+                </div>
+
+                <div class="flow-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-step scroll-animate delay-1">
+                    <div class="flow-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="flow-title">2. Spectral Analysis</h3>
+                    <p class="flow-desc">AI processes data to identify soil composition and health indicators</p>
+                </div>
+
+                <div class="flow-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-step scroll-animate delay-2">
+                    <div class="flow-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3 class="flow-title">3. Soil Health Map</h3>
+                    <p class="flow-desc">Detailed zone-wise soil report with nutrient levels and pH</p>
+                </div>
+
+                <div class="flow-connector">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <div class="flow-step scroll-animate delay-3">
+                    <div class="flow-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="flow-title">4. Personalized Advice</h3>
+                    <p class="flow-desc">Custom recommendations for inputs and crop management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Monitoring -->
+    <section class="ai-monitoring">
+        <div class="container">
+            <h2 class="section-title text-center">AI-Driven Monitoring & Traceability</h2>
+            <p class="section-subtitle text-center">Real-time insights from field to market</p>
+            
+            <div class="monitoring-grid">
+                <div class="monitoring-visual scroll-animate">
+                    <div class="visual-card">
+                        <i class="fas fa-satellite-dish"></i>
+                        <p>Satellite Images</p>
+                    </div>
+                    <div class="visual-arrow">↓</div>
+                    <div class="visual-card">
+                        <i class="fas fa-brain"></i>
+                        <p>AI Analysis</p>
+                    </div>
+                    <div class="visual-arrow">↓</div>
+                    <div class="visual-card">
+                        <i class="fas fa-bell"></i>
+                        <p>Smart Alerts</p>
+                    </div>
+                    <div class="visual-arrow">↓</div>
+                    <div class="visual-card">
+                        <i class="fas fa-qrcode"></i>
+                        <p>QR Traceability</p>
+                    </div>
+                </div>
+
+                <div class="monitoring-content scroll-animate delay-1">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Crop Health Monitoring</h4>
+                            <p>Track growth stages, detect stress, and identify pest/disease early</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>Weather-Based Alerts</h4>
+                            <p>Get timely notifications for irrigation, spraying, and harvesting</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h4>End-to-End Traceability</h4>
+                            <p>QR codes on produce show farm origin, practices, and certifications</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" id="viewDemoBtn">
+                        <i class="fas fa-play"></i> View Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agronomical Advisory -->
+    <section class="advisory-section">
+        <div class="container">
+            <h2 class="section-title text-center">Expert Agronomical Advisory</h2>
+            <p class="section-subtitle text-center">Personalized guidance from certified agronomists</p>
+            
+            <div class="advisory-grid">
+                <div class="expert-card scroll-animate">
+                    <div class="expert-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>Dr. Rajesh Kumar</h4>
+                    <p class="expert-title">Soil Health Expert</p>
+                    <p class="expert-desc">15+ years in organic farming and soil regeneration</p>
+                </div>
+
+                <div class="expert-card scroll-animate delay-1">
+                    <div class="expert-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>Priya Sharma</h4>
+                    <p class="expert-title">IPM Specialist</p>
+                    <p class="expert-desc">Expert in integrated pest management for residue-free crops</p>
+                </div>
+
+                <div class="expert-card scroll-animate delay-2">
+                    <div class="expert-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>Anil Patil</h4>
+                    <p class="expert-title">Crop Nutrition Advisor</p>
+                    <p class="expert-desc">Specializes in organic nutrition and yield optimization</p>
+                </div>
+            </div>
+
+            <div class="case-studies">
+                <h3 class="subsection-title">Success Stories</h3>
+                <div class="case-grid">
+                    <div class="case-card scroll-animate">
+                        <div class="case-chart" data-before="45" data-after="72">
+                            <canvas id="yieldChart1"></canvas>
+                        </div>
+                        <h4>Punjab Wheat Farm</h4>
+                        <p>60% yield increase after implementing residue-free practices</p>
+                    </div>
+
+                    <div class="case-card scroll-animate delay-1">
+                        <div class="case-chart" data-before="38" data-after="65">
+                            <canvas id="yieldChart2"></canvas>
+                        </div>
+                        <h4>Maharashtra Cotton</h4>
+                        <p>71% reduction in input costs with organic alternatives</p>
+                    </div>
+
+                    <div class="case-card scroll-animate delay-2">
+                        <div class="case-chart" data-before="52" data-after="88">
+                            <canvas id="yieldChart3"></canvas>
+                        </div>
+                        <h4>Tamil Nadu Rice</h4>
+                        <p>69% improvement in soil organic carbon over 2 years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inputs Catalog -->
+    <section class="inputs-catalog" id="inputs">
+        <div class="container">
+            <h2 class="section-title text-center">Certified Residue-Free Inputs</h2>
+            <p class="section-subtitle text-center">35+ quality products for sustainable farming</p>
+            
+            <div class="catalog-filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="fertilizer">Fertilizers</button>
+                <button class="filter-btn" data-filter="pesticide">Pest Control</button>
+                <button class="filter-btn" data-filter="growth">Growth Promoters</button>
+                <button class="filter-btn" data-filter="soil">Soil Conditioners</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Parametric Insurance -->
+    <section class="insurance-section">
+        <div class="container">
+            <h2 class="section-title text-center">Parametric Insurance</h2>
+            <p class="section-subtitle text-center">Weather-based protection for your crops</p>
+            
+            <div class="insurance-accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span><i class="fas fa-shield-alt"></i> What is Parametric Insurance?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Parametric insurance provides automatic payouts when specific weather events (like drought, excess rainfall, or heatwaves) occur, without the need for traditional loss assessments. Triggers are based on satellite and weather station data.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span><i class="fas fa-cloud-rain"></i> Covered Events</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <ul class="covered-list">
+                            <li><i class="fas fa-check"></i> Drought (rainfall below threshold)</li>
+                            <li><i class="fas fa-check"></i> Excess Rainfall (above threshold)</li>
+                            <li><i class="fas fa-check"></i> Extreme Temperature (heat/cold waves)</li>
+                            <li><i class="fas fa-check"></i> Hailstorm & Frost</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span><i class="fas fa-coins"></i> Quick Claims Process</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="claims-flow">
+                            <div class="claim-step">
+                                <span class="claim-number">1</span>
+                                <p>Trigger Event Detected</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                            <div class="claim-step">
+                                <span class="claim-number">2</span>
+                                <p>Automatic Assessment</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                            <div class="claim-step">
+                                <span class="claim-number">3</span>
+                                <p>Payout in 7 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="insurance-cta">
+                <a href="contact.html" class="btn btn-primary btn-lg">Get Insurance Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Farm Credit -->
+    <section class="farm-credit">
+        <div class="container">
+            <h2 class="section-title text-center">Farm Credit Support</h2>
+            <p class="section-subtitle text-center">Access low-interest loans for sustainable farming</p>
+            
+            <div class="credit-content">
+                <div class="credit-info scroll-animate">
+                    <div class="info-card">
+                        <i class="fas fa-percent"></i>
+                        <h4>Low Interest Rates</h4>
+                        <p>Starting from 7% per annum for verified residue-free farmers</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Quick Approval</h4>
+                        <p>Get credit decisions within 48 hours with minimal documentation</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <h4>Flexible Repayment</h4>
+                        <p>Customize repayment schedule based on your harvest cycle</p>
+                    </div>
+                </div>
+
+                <div class="credit-form-container scroll-animate delay-1">
+                    <h3>Check Your Eligibility</h3>
+                    <form class="credit-form" id="creditForm">
+                        <div class="form-group">
+                            <label for="farmerName">Full Name</label>
+                            <input type="text" id="farmerName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="landSize">Land Size (Acres)</label>
+                            <input type="number" id="landSize" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cropType">Primary Crop</label>
+                            <select id="cropType" required>
+                                <option value="">Select Crop</option>
+                                <option value="wheat">Wheat</option>
+                                <option value="rice">Rice</option>
+                                <option value="cotton">Cotton</option>
+                                <option value="sugarcane">Sugarcane</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="farmingYears">Years in Farming</label>
+                            <input type="number" id="farmingYears" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Check Eligibility</button>
+                    </form>
+                    <div class="eligibility-result" id="eligibilityResult"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy-Back Program -->
+    <section class="buyback-section">
+        <div class="container">
+            <h2 class="section-title text-center">Guaranteed Buy-Back Program</h2>
+            <p class="section-subtitle text-center">Fair prices, reliable markets, hassle-free selling</p>
+            
+            <div class="buyback-features">
+                <div class="feature-box scroll-animate">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Pre-Harvest Agreements</h4>
+                    <p>Lock in prices before harvest for guaranteed income</p>
+                </div>
+                <div class="feature-box scroll-animate delay-1">
+                    <i class="fas fa-truck"></i>
+                    <h4>Free Doorstep Pickup</h4>
+                    <p>We collect from your farm — no transport hassle</p>
+                </div>
+                <div class="feature-box scroll-animate delay-2">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h4>Instant Payment</h4>
+                    <p>Get paid within 24 hours via direct bank transfer</p>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <h3 class="subsection-title">Coverage Map</h3>
+                <div class="india-map" id="indiaMap">
+                    <div class="map-placeholder scroll-animate">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Interactive Map: Hover over states to see collection centers</p>
+                        <div class="state-info" id="stateInfo">
+                            <h4>Punjab</h4>
+                            <p><strong>15 Collection Centers</strong></p>
+                            <p>Crops: Wheat, Rice, Cotton</p>
+                            <p>Next Pickup: Every Tuesday & Friday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <div class="legend-item">
+                        <span class="legend-dot active"></span>
+                        <span>Active Centers</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-dot upcoming"></span>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="footer-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Start Your Residue-Free Journey Today</h2>
+                <p class="cta-description">Join thousands of farmers earning more with sustainable practices</p>
+                <div class="cta-buttons">
+                    <a href="for-farmers.html" class="btn btn-primary btn-lg">Sign Up Now</a>
+                    <a href="contact.html" class="btn btn-outline-white btn-lg">Talk to Expert</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">
+                        <i class="fas fa-seedling"></i> rupiya.app
+                    </h3>
+                    <p class="footer-description">
+                        Empowering farmers with residue-free farming, carbon credits, and financial freedom.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="residue-free-farming.html">Residue-Free Farming</a></li>
+                        <li><a href="carbon-credits.html">Carbon Credits</a></li>
+                        <li><a href="financial-services.html">Financial Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">For You</h4>
+                    <ul class="footer-links">
+                        <li><a href="for-farmers.html">For Farmers</a></li>
+                        <li><a href="for-fpos.html">For FPOs</a></li>
+                        <li><a href="for-buyers.html">For Buyers</a></li>
+                        <li><a href="for-investors.html">For Investors</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Stay Updated</h4>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+                        <button type="submit" aria-label="Subscribe to newsletter">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <p class="footer-note">Get the latest updates on sustainable farming</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>•</span>
+                    <a href="#">Terms of Service</a>
+                    <span>•</span>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                <p class="copyright">© 2024 Rupiya.app. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div class="modal" id="demoModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <h3>AI Monitoring Demo</h3>
+            <div class="demo-animation">
+                <div class="demo-step active">
+                    <i class="fas fa-satellite"></i>
+                    <p>Capturing satellite imagery...</p>
+                </div>
+                <div class="demo-step">
+                    <i class="fas fa-cogs"></i>
+                    <p>Processing with AI...</p>
+                </div>
+                <div class="demo-step">
+                    <i class="fas fa-chart-bar"></i>
+                    <p>Generating insights...</p>
+                </div>
+                <div class="demo-step">
+                    <i class="fas fa-bell"></i>
+                    <p>Sending alerts to farmer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/residue-free.js"></script>
+</body>
+</html>
